@@ -1,32 +1,85 @@
 .App {
   text-align: center;
+  height: 100%;
+  width: 100%;
+  font-family: 'Lato', 'Montserrat', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.left-container {
+  width: 50%;
+  height: 100%;
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f44336;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.left-container div{  
+  justify-content: center;
+  align-self: center;
+  display: block;
+}
+
+.left-container h1 {
+  color: #fff;
+  font-size: 4rem;
+  padding: 0rem;
+  margin: 1rem auto 1rem auto;
+}
+
+.left-container h3 {
+  color: #eee;
+  font-size: 1.5rem;
+}
+
+.profile-image{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 2rem;
+}
+
+.right-container {
+  background-color: #fff;
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+
+.list-inline{
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+}
+.fab,.fas {
+  padding: 20px;
+  font-size: 30px;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fab:hover ,.fas:hover{
+    opacity: 0.7;
+}
+
+.fa-linkedin {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.fa-instagram {
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-github {
+  color: white;
+}
+
+.fa-envelope {
+  color: white;
 }
