@@ -18,28 +18,46 @@ class App extends Component {
             </h1>
             <h3>
               I'm Siddharth Seth.
-              <br />
+              </h3>
+            <h4>
               Full Stack Developer
-            </h3>
+            </h4>
           </div>
-            <div className="list-inline">
-              <a href="#" className="fab fa-instagram"></a>
+          <div className="list-inline">
+            <p>Reach me at <a rel="noopener noreferrer" target="_blank" href="mailto:mail@siddharthseth.xyz">mail@siddharthseth.xyz</a></p>
+            <div>
               <a href="#" className="fab fa-github"></a>
+              <a href="#" className="fab fa-instagram"></a>
               <a href="#" className="fab fa-linkedin"></a>
             </div>
+          </div>
         </div>
         <div className="right-container">
-          <h3>
-            Introduction
-        </h3>
-          <p>
-            I work on projects on both Android OS and Windows but have special love for Android apps.
-
-    The current one which is in active development is a Running app, Espresso and is available on Github and on Play Store. I have also worked server side on three projects, primarily using Node.js and have experience with working on AWS(EB, RDS & S3).
-    Although I no longer actively work on Windows, in the past I have developed Desktop applications in both C# and Java.
-
-    Do check out my projects above and my résumé below and get in touch if you find it interesting.
-        </p>
+          <div className="nav-bar">
+            <div className="flexbox-left">
+              <h4>SIDDHARTH SETH</h4>
+            </div>
+            <div className="flexbox-right">
+              <button href="#projects">PROJECTS</button>
+              <button href="#resume">RÉSUMÉ</button>
+            </div>
+          </div>
+          <div className="content">
+            <h3>About Me</h3>
+            <p>
+              I am a software developer from Lucknow, India. I have worked on and published several Android Apps, which are available on the Google Play Store and on my Github page(chrome289).
+          </p>
+            <p>
+              My Android projects are done using Kotlin or Java and Node.js is my choice of Server Runtime-Environment. Besides these I have experience in working on Windows' WPF and Console applications using C# and Java. Most of my projects are Open-Source and the source codes are available on Github.
+          </p>
+            <h5>Outside the Tech-World</h5>
+            <p>
+              I like going on long walks and being surrounded by nature. I am a self-confessed Europhile and have an intermediate knowledge of French(Peut-être?). I also follow F1 Racing and read Fiction Books in my past-time.
+          </p>
+            <p>
+              Do check out my Projects and Résumé above and get in touch if you find it interesting.
+          </p>
+          </div>
         </div>
       </div>
     );
