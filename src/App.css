@@ -71,7 +71,7 @@
 .right-container {
   background-color: transparent;
   float: right;
-  padding: 1rem 4rem 4rem 4rem;
+  padding: 1.5rem 4rem 4rem 4rem;
   box-sizing: border-box;
 }
 
@@ -95,7 +95,7 @@
   align-items: center;
 }
 
-.flexbox-left>h4 {
+.flexbox-left >h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #f44336;
@@ -109,12 +109,12 @@
   display: inline-flex;
 }
 
-.flexbox-right>button {
+.flexbox-right button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   color: #f44336;
   background-color: transparent;
-  font-size: .9rem;
+  font-size: 1rem;
   letter-spacing: .075rem;
   margin: 0rem;
   padding: 1rem;
@@ -122,20 +122,20 @@
   text-decoration: underline;
 }
 
-.flexbox-right>button:hover {
+.flexbox-right button:hover {
   color: #fff;
   background-color: #f44336;
 }
 
-.flexbox-right>button:focus {
+.flexbox-right button:focus {
   outline: #f44336 auto 1px;
 }
 
-.right-container>.content {
+.right-container .content {
   margin: 0rem;
 }
 
-.right-container .content>p {
+.right-container .content p {
   font-size: 1.1rem;
   color: #212121;
   margin: 1.25rem 0rem;
@@ -143,21 +143,31 @@
   font-family: 'Fira Sans', sans-serif;
 }
 
-.right-container .content>h3 {
+.right-container .content h3 {
   font-size: 2rem;
   color: #f44336;
   font-family: 'Montserrat', sans-serif;
   text-align: start;
-  margin: 1rem 0rem;
+  margin: 2rem 0rem;
 }
 
-.right-container .content>h5 {
+.right-container .content h5 {
   font-size: 1rem;
-  color: #f44336;
+  color: #000;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin: 1.5rem auto;
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.right-container .content a {
+  color: #f44336;
+}
+
+.right-container .content a:Hover,
+:visited,
+:focus {
+  color: #f44336;
 }
 
 .list-inline {
@@ -182,62 +192,28 @@
   opacity: 0.7;
 }
 
-
-.col-1 {
-  width: 8.33%;
-}
-
-.col-2 {
-  width: 16.66%;
-}
-
-.col-3 {
-  width: 25%;
-}
-
-.col-4 {
-  width: 33.33%;
-}
-
 .col-5 {
   width: 41.66%;
-}
-
-.col-6 {
-  width: 50%;
 }
 
 .col-7 {
   width: 58.33%;
 }
 
-.col-8 {
-  width: 66.66%;
-}
-
-.col-9 {
-  width: 75%;
-}
-
-.col-10 {
-  width: 83.33%;
-}
-
-.col-11 {
-  width: 91.66%;
-}
-
-.col-12 {
-  width: 100%;
-}
-
 @media only screen and (max-width: 1024px) {
   [class*="col-"] {
     width: 100%;
+  }
 
+  .flexbox-right{
+    float: none;
   }
 
   .right-container {
     padding: 1rem 2rem 2rem 2rem;
   }
+}
+
+.projects {
+  background-color: green;
 }
