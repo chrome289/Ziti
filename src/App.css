@@ -2,13 +2,12 @@
   text-align: center;
   height: 100%;
   width: 100%;
-  font-family: 'Open Sans', 'Montserrat', sans-serif;
-  background: #f44336;
+  font-family: 'Fira Sans', 'Montserrat', sans-serif;
+  background: #fff;
 }
 
 .left-container {
-  background-color: #fff;
-  width: 40%;
+  background-color: #eb5146;
   height: 100%;
   float: left;
   font-family: 'Montserrat', sans-serif;
@@ -26,30 +25,54 @@
 }
 
 .left-container h1 {
-  color: #212121;
+  color: #fff;
   font-size: 4rem;
   padding: 0rem;
-  font-weight: 900;
+  font-weight: 400;
   margin: 0rem auto;
 }
 
 .left-container h3 {
-  color: #424242;
+  color: #f5f5f5;
+  font-weight: 500;
   margin: 4rem auto .5rem auto;
   font-size: 1.5rem;
 }
 
 .left-container h4 {
-  color: #616161;
+  color: #eee;
   font-size: 1.25rem;
   margin: 0 auto;
+  font-weight: 400;
+}
+
+.left-container p {
+  color: #f5f5f5;
+  margin: 0rem 1rem 0.5rem 1rem;
+}
+
+.left-container a {
+  color: #f5f5f5;
+}
+
+.left-container h5 {
+  color: #f5f5f5;
+  font-size: 1rem;
+  margin: 0rem 0rem 0rem 0rem;
+  font-weight: 600;
+}
+
+.left-container .media-buttons {
+  color: #f5f5f5;
+  padding: 1rem;
+  margin: .5rem;
 }
 
 .right-container {
   background-color: transparent;
-  width: 60%;
-  height: 100%;
   float: right;
+  padding: 1rem 4rem 4rem 4rem;
+  box-sizing: border-box;
 }
 
 .nav-bar {
@@ -61,7 +84,7 @@
 .flexbox-left>p {
   float: left;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   color: #fff;
   margin: 0 auto;
 }
@@ -74,66 +97,67 @@
 
 .flexbox-left>h4 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
-  color: #fff;
+  font-weight: 400;
+  color: #f44336;
   font-size: 1rem;
   letter-spacing: .075rem;
-  margin: 2rem 4rem;
+  margin: 1rem 0rem;
 }
 
 .flexbox-right {
   float: right;
-  margin-right: 4rem;
   display: inline-flex;
 }
 
 .flexbox-right>button {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
-  color: #fff;
+  font-weight: 500;
+  color: #f44336;
   background-color: transparent;
   font-size: .9rem;
   letter-spacing: .075rem;
-  margin: 1rem 0rem ;
+  margin: 0rem;
   padding: 1rem;
   border: 0;
+  text-decoration: underline;
 }
 
-.flexbox-right>button:hover{
-  background-color: #ff6358;
+.flexbox-right>button:hover {
+  color: #fff;
+  background-color: #f44336;
 }
 
-.flexbox-right>button:focus{
-  outline: #ff6358 auto 1px;
+.flexbox-right>button:focus {
+  outline: #f44336 auto 1px;
 }
 
 .right-container>.content {
-  margin: 1rem;
+  margin: 0rem;
 }
 
 .right-container .content>p {
   font-size: 1.1rem;
-  color: #fff;
-  margin: 1.25rem 3rem;
+  color: #212121;
+  margin: 1.25rem 0rem;
   text-align: start;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .right-container .content>h3 {
   font-size: 2rem;
-  color: #000;
+  color: #f44336;
   font-family: 'Montserrat', sans-serif;
   text-align: start;
-  margin: 0rem 3rem;
+  margin: 1rem 0rem;
 }
 
 .right-container .content>h5 {
-  font-size: 1.15rem;
-  color: #212121;
+  font-size: 1rem;
+  color: #f44336;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin: 1.5rem auto;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .list-inline {
@@ -142,8 +166,7 @@
   bottom: 0;
 }
 
-.fab,
-.fas {
+.fab {
   padding: 20px;
   font-size: 30px;
   width: 2rem;
@@ -152,25 +175,69 @@
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
+  color: #eee;
 }
 
-.fab:hover,
-.fas:hover {
+.fab:hover {
   opacity: 0.7;
 }
 
-.fa-linkedin {
-  color: #757575;
+
+.col-1 {
+  width: 8.33%;
 }
 
-.fa-instagram {
-  color: #757575;
+.col-2 {
+  width: 16.66%;
 }
 
-.fa-github {
-  color: #757575;
+.col-3 {
+  width: 25%;
 }
 
-.fa-envelope {
-  color: #757575;
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  [class*="col-"] {
+    width: 100%;
+
+  }
+
+  .right-container {
+    padding: 1rem 2rem 2rem 2rem;
+  }
 }
